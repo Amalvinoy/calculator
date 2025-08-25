@@ -15,8 +15,13 @@
 <body>
     <main class="page">
         <section class="calculator" aria-label="Calculator">
+            <header class="calc-head">
+                <span class="brand" aria-label="App name">Calculator</span>
+                <button type="button" class="theme-toggle" data-action="toggle-theme" aria-pressed="false" title="Toggle theme">🌗</button>
+            </header>
             <div class="display">
                 <input id="result" type="text" placeholder="0" readonly aria-label="Calculator display">
+               
             </div>
 
             <div class="keys" role="group" aria-label="Calculator keys">
